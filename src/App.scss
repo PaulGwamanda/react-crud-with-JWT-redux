@@ -1,18 +1,9 @@
 $brandLightGray: #f4f5f7;
 
-.navbar-dark{
-  border-bottom: 1px solid dimgray;
-}
-.main {
-  padding-top: 5rem;
-  padding: 5rem 1.5rem 0;
-}
 .sidebar{
   background: $brandLightGray;
-  padding-top: 5rem;
   height: 100vh;
 }
-
 #editor {
   white-space: pre-line;
 }

@@ -1,6 +1,7 @@
 // edit.component.js
 
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 export default class View extends Component {
@@ -31,7 +32,8 @@ export default class View extends Component {
     return (
         <main role="main" className="container">
             <div className="main">
-                <div className="col-lg-12 ">
+                <div className="col-lg-12">
+                <h1><span class="badge badge-secondary mb-3">{this.state.language}</span></h1>
                 <h3>{this.state.lesson}</h3>
                 <div id="editor"> {this.state.description}</div>
             </div>

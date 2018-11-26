@@ -1,3 +1,16 @@
+React app for crud operations using mongodb 
+
+To run do the ff
+
+in root directory:
+### `npm install`
+### `npm start`
+
+in ./api directory:
+### `npm install`
+### `mongod`
+
+===
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

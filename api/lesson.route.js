@@ -12,9 +12,6 @@ lessonRoutes.route('/add').post(function (req, res) {
   lesson.save()
     .then(lesson => {
       res.status(200).json({'lesson': 'lesson in added successfully'})
-      this.setState({
-        redirectTo: '/index'
-      });
     })
     .catch(err => {
     res.status(400).send("unable to save to database");

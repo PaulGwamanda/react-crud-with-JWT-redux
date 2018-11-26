@@ -50,7 +50,6 @@ export default class Create extends Component {
     })
   }
  
- 
   render() {
       return (
         <main role="main" className="container">
